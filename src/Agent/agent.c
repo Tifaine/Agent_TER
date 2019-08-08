@@ -192,13 +192,12 @@ void agent_traitement_message(_message* mess, Agent* ag)
 
 							}
 							sl->state = READY;
-							break;
-							
+							break;							
 						}
-
 					}
 				}
 			}
+			break;
 		}
 
 		case NEED_DATA_MONITOR_FOR_WATCHING:
