@@ -8,6 +8,7 @@ Un organizer va organiser les données d'un watcher pour assurer qu'ils correspo
 
 
 Pour fonctionner, il va, dans un premier temps, s'enregistrer auprès d'un serveur qui va lui répondre son nom unique dans le système et l'adresse d'une plateforme de répartition des tâches à réaliser. C'est cette plateforme qui va attribuer les fonctions de watching et d'organizing en fonction des performances de chaque objet.
+L'agent doit ainsi, des qu'il a récupérer l'adresse de la plateforme, s'enregistrer auprès de celle-ci et préciser son nombre de pattern à surveiller et son nombre de slots disponibles pour réaliser des tâches.
 
 
 ## Le récupérer:
