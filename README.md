@@ -1,5 +1,15 @@
 Programme serveur pour SMA
 
+L'intérêt de ce logiciel est de développer un agent permettant la sécurité d'un objet connecté. 
+Un agent peut réaliser plusieurs tâches. Il doit au minimum monitorer les grandeurs dont il veut se servir pour assurer sa sécurité. 
+Il peut dynamiquement se voir attribuer des tâches de watching et d'organizing. 
+Un watcher va venir observer les données collectées par un agent et les mettre en forme pour respecter un pattern donné.
+Un organizer va organiser les données d'un watcher pour assurer qu'ils correspondent aux valeurs attendu pour être jugé conforme par le pattern.
+
+
+Pour fonctionner, il va, dans un premier temps, s'enregistrer auprès d'un serveur qui va lui répondre son nom unique dans le système et l'adresse d'une plateforme de répartition des tâches à réaliser. C'est cette plateforme qui va attribuer les fonctions de watching et d'organizing en fonction des performances de chaque objet.
+
+
 ## Le récupérer:
 ```Shell
 > git clone --recurse-submodules https://github.com/Tifaine/Agent_TER
@@ -16,16 +26,6 @@ Programme serveur pour SMA
 ```Sehll
 > make
 ```
-
-##But
-L'intérêt de ce logiciel est de développer un agent permettant la sécurité d'un objet connecté. 
-Un agent peut réaliser plusieurs tâches. Il doit au minimum monitorer les grandeurs dont il veut se servir pour assurer sa sécurité. 
-Il peut dynamiquement se voir attribuer des tâches de watching et d'organizing. 
-Un watcher va venir observer les données collectées par un agent et les mettre en forme pour respecter un pattern donné.
-Un organizer va organiser les données d'un watcher pour assurer qu'ils correspondent aux valeurs attendu pour être jugé conforme par le pattern.
-
-
-Pour fonctionner, il va, dans un premier temps, s'enregistrer auprès d'un serveur qui va lui répondre son nom unique dans le système et l'adresse d'une plateforme de répartition des tâches à réaliser. C'est cette plateforme qui va attribuer les fonctions de watching et d'organizing en fonction des performances de chaque objet.
 
 ## Utilisation:
 Vous pouvez lancer le programme comme suit :
