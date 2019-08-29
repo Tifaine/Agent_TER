@@ -15,7 +15,9 @@
 #include "gestionSlot.h"
 
 #define INIT 1
-#define TARGET_CPU_ACTIVITY 	1
+#define TARGET_CPU_ACTIVITY 		1
+#define TARGET_CURRENT_ACTIVITY 	2
+
 
 void agent_init(char* nom, Agent* ag);
 void agent_run(Agent* ag);

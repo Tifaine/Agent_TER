@@ -4,6 +4,7 @@
 #define MAXDATASIZE 5000
 #define ASK_WATCH			3
 #define TYPE_MEAN			1
+#define TYPE_PEAK			2
 
 int initToWatch(Agent * agMyself, char * nomToWatch, int nbPatternToWatch)
 {
