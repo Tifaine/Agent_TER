@@ -44,9 +44,13 @@ Il est de la forme suivante :
 </pattern>
 ```
 Target : 1 pour l'activité CPU, 2 pour la mesure du courant electrique
+
 Type : 1 pour la moyenne, 2 pour un pic
+
 Value : Valeur maximale autorisé
+
 ValidFrequency : Fréquence de vérification des agents Organizer
+
 SamplingFrequency : Fréquence de demande des agents Watcher
 
 
