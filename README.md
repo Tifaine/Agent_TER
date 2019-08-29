@@ -43,9 +43,13 @@ Il est de la forme suivante :
 	</footprint>
 </pattern>
 ```
-Target : 1 pour l'activité CPU, 2 pour la mesure du courant electrique
+Target : 
+- 1 pour l'activité CPU
+- 2 pour la mesure du courant electrique
 
-Type : 1 pour la moyenne, 2 pour un pic
+Type : 
+- 1 pour la moyenne 
+- 2 pour un pic
 
 Value : Valeur maximale autorisé
 
